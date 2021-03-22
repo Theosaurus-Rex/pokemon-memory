@@ -80,7 +80,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const optionOneId = cardsChosenId[0]
         const optionTwoId = cardsChosenId[1]
         
-        if (optionOneId === optionTwoId) {
+        if (optionOneId == optionTwoId) {
             alert('You found a match!')
             cards[optionOneId].setAttribute('src', 'img/white.png')
             cards[optionTwoId].setAttribute('src', 'img/white.png')
